@@ -1,0 +1,6 @@
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\bin\Debug\CountWordsFromTextFile.exe.config
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\bin\Debug\CountWordsFromTextFile.exe
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\bin\Debug\CountWordsFromTextFile.pdb
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\obj\Debug\CountWordsFromTextFile.csprojResolveAssemblyReference.cache
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\obj\Debug\CountWordsFromTextFile.exe
+E:\Walton Projects\CountWordsFromTextFile\CountWordsFromTextFile\obj\Debug\CountWordsFromTextFile.pdb
