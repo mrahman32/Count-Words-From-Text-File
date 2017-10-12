@@ -17,13 +17,12 @@ namespace CountWordsFromTextFile
                 
                 while (!sr.EndOfStream)
                 {
-                    var counts = sr
-                        .ReadLine()
-                        .Split(' ')
-                        .GroupBy(s => s)
-                        .Select(g => new { Word = g.Key, Count = g.Count() });
-                    var wc = counts.Sum(i => i.Count);
-                    total += (wc == null) ? 0 : wc;
+                    var readLine = sr.ReadLine();
+                    if (readLine != null)
+                    {
+                        var words = readLine.Split(' ');
+                        total += words.Length;
+                    }
                 }
             }
             stopwatch.Stop();
@@ -32,6 +31,7 @@ namespace CountWordsFromTextFile
                 ts.Hours, ts.Minutes, ts.Seconds,
                 ts.Milliseconds / 10);
             Console.WriteLine(total + "\n Time Required : " + elapsedTime);
+
             Console.ReadKey();
         }
     }
